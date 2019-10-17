@@ -3,25 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		390105D72358100C006474E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390105D62358100C006474E1 /* AppDelegate.swift */; };
-		390105D92358100C006474E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390105D82358100C006474E1 /* ViewController.swift */; };
 		390105DC2358100C006474E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390105DA2358100C006474E1 /* Main.storyboard */; };
 		390105DE2358100E006474E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 390105DD2358100E006474E1 /* Assets.xcassets */; };
 		390105E12358100E006474E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390105DF2358100E006474E1 /* LaunchScreen.storyboard */; };
+		39200BB22358115C0075792F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39200BB12358115C0075792F /* Service.swift */; };
+		39200BB423581A9E0075792F /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39200BB323581A9E0075792F /* Hero.swift */; };
+		39200BB623581CE20075792F /* HeroService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39200BB523581CE20075792F /* HeroService.swift */; };
+		39200BB8235821930075792F /* HeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39200BB7235821930075792F /* HeroViewModel.swift */; };
+		39200BBF23582F2F0075792F /* HeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39200BBE23582F2F0075792F /* HeroCell.swift */; };
+		39200BC2235832F20075792F /* HeroListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39200BC1235832F20075792F /* HeroListViewController.swift */; };
+		39200BC4235835C20075792F /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39200BC3235835C20075792F /* CustomNavigationController.swift */; };
+		738D8F24A197131E7BADBF46 /* Pods_ListHero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57470C5AB0AEFD5BF132B6AD /* Pods_ListHero.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D4528354054DA1E6118CD7D /* Pods-ListHero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListHero.release.xcconfig"; path = "Target Support Files/Pods-ListHero/Pods-ListHero.release.xcconfig"; sourceTree = "<group>"; };
 		390105D32358100C006474E1 /* ListHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		390105D62358100C006474E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		390105D82358100C006474E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		390105DB2358100C006474E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		390105DD2358100E006474E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		390105E02358100E006474E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		390105E22358100E006474E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39200BB12358115C0075792F /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		39200BB323581A9E0075792F /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		39200BB523581CE20075792F /* HeroService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroService.swift; sourceTree = "<group>"; };
+		39200BB7235821930075792F /* HeroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewModel.swift; sourceTree = "<group>"; };
+		39200BBE23582F2F0075792F /* HeroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCell.swift; sourceTree = "<group>"; };
+		39200BC1235832F20075792F /* HeroListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListViewController.swift; sourceTree = "<group>"; };
+		39200BC3235835C20075792F /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		57470C5AB0AEFD5BF132B6AD /* Pods_ListHero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListHero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8210D15DA86919C018E91163 /* Pods-ListHero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListHero.debug.xcconfig"; path = "Target Support Files/Pods-ListHero/Pods-ListHero.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				738D8F24A197131E7BADBF46 /* Pods_ListHero.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0466F5DB71C9B6ED8061D8CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57470C5AB0AEFD5BF132B6AD /* Pods_ListHero.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		390105CA2358100C006474E1 = {
 			isa = PBXGroup;
 			children = (
 				390105D52358100C006474E1 /* ListHero */,
 				390105D42358100C006474E1 /* Products */,
+				BB4BB7EB04585ACA19409C8A /* Pods */,
+				0466F5DB71C9B6ED8061D8CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +82,76 @@
 			isa = PBXGroup;
 			children = (
 				390105D62358100C006474E1 /* AppDelegate.swift */,
-				390105D82358100C006474E1 /* ViewController.swift */,
+				39200BC3235835C20075792F /* CustomNavigationController.swift */,
+				39200BC0235832D80075792F /* Controller */,
+				39200BB923582E7A0075792F /* ViewModel */,
+				39200BBA23582E870075792F /* Model */,
+				39200BBB23582ECD0075792F /* View */,
+				39200BBD23582F050075792F /* Service */,
+				39200BBC23582EE70075792F /* Libs */,
 				390105DA2358100C006474E1 /* Main.storyboard */,
 				390105DD2358100E006474E1 /* Assets.xcassets */,
 				390105DF2358100E006474E1 /* LaunchScreen.storyboard */,
 				390105E22358100E006474E1 /* Info.plist */,
 			);
 			path = ListHero;
+			sourceTree = "<group>";
+		};
+		39200BB923582E7A0075792F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				39200BB7235821930075792F /* HeroViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		39200BBA23582E870075792F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				39200BB323581A9E0075792F /* Hero.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		39200BBB23582ECD0075792F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				39200BBE23582F2F0075792F /* HeroCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		39200BBC23582EE70075792F /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				39200BB12358115C0075792F /* Service.swift */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		39200BBD23582F050075792F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				39200BB523581CE20075792F /* HeroService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		39200BC0235832D80075792F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				39200BC1235832F20075792F /* HeroListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BB4BB7EB04585ACA19409C8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8210D15DA86919C018E91163 /* Pods-ListHero.debug.xcconfig */,
+				2D4528354054DA1E6118CD7D /* Pods-ListHero.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 390105E52358100E006474E1 /* Build configuration list for PBXNativeTarget "ListHero" */;
 			buildPhases = (
+				D52D89074994049C1D1A6E59 /* [CP] Check Pods Manifest.lock */,
 				390105CF2358100C006474E1 /* Sources */,
 				390105D02358100C006474E1 /* Frameworks */,
 				390105D12358100C006474E1 /* Resources */,
+				4082C792C71410D82BDCF6AA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +222,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4082C792C71410D82BDCF6AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ListHero/Pods-ListHero-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ListHero/Pods-ListHero-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ListHero/Pods-ListHero-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D52D89074994049C1D1A6E59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ListHero-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		390105CF2358100C006474E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				390105D92358100C006474E1 /* ViewController.swift in Sources */,
+				39200BC2235832F20075792F /* HeroListViewController.swift in Sources */,
+				39200BB623581CE20075792F /* HeroService.swift in Sources */,
 				390105D72358100C006474E1 /* AppDelegate.swift in Sources */,
+				39200BB22358115C0075792F /* Service.swift in Sources */,
+				39200BC4235835C20075792F /* CustomNavigationController.swift in Sources */,
+				39200BB8235821930075792F /* HeroViewModel.swift in Sources */,
+				39200BBF23582F2F0075792F /* HeroCell.swift in Sources */,
+				39200BB423581A9E0075792F /* Hero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +420,7 @@
 		};
 		390105E62358100E006474E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8210D15DA86919C018E91163 /* Pods-ListHero.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +438,7 @@
 		};
 		390105E72358100E006474E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D4528354054DA1E6118CD7D /* Pods-ListHero.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

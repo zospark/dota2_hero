@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CustomNavigationController.swift
 //  ListHero
 //
 //  Created by developer team on 17/10/2562 BE.
@@ -8,13 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CustomNavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
-
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 
 }
-
